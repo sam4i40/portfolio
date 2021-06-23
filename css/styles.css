@@ -31,12 +31,20 @@ hr{
   border-color: grey;
   border-style: dotted;
   border-width: 5px 0 0 0;
-  width: 5%;
+  width: 15%;
   margin: 100px auto 100px auto;
 }
 
 p{
   line-height: 2;
+}
+
+ul{
+  margin: 2% 10% 2%;
+}
+
+li{
+  line-height: 2rem;
 }
 
 /*-------------------------------Class Style---------------------------*/
@@ -85,7 +93,7 @@ p{
 
 .top-container{
   background-color: #E4F9F5;
-  padding-top: 100px;
+  padding: 100px 0 100px;
 }
 
 .pro{
@@ -93,15 +101,81 @@ p{
 }
 
 .problem_solving_image{
+  display: inline-block;
   width: 25%;
-  float: left;
   margin-right: 30px;
+}
+
+.problem_solving{
+  display: inline-block;
 }
 
 .typing_image{
   width: 30%;
   float: right;
   margin-left: 30px;
+}
+
+.lang_first_col{
+  display: inline-block;
+}
+
+.lang_second_col{
+  display: inline-block;
+  vertical-align: top;
+}
+
+.name1{
+  display: inline-block;
+  vertical-align: middle;
+  margin: auto 5% auto;
+}
+
+.description1{
+  display: inline-block;
+  font-size: 1rem;
+  font-weight: 600;
+  vertical-align: middle;
+  width: 50%
+}
+
+.project{
+  margin: 0 auto 100px;
+}
+
+.project1{
+  margin: 100px auto 0;
+}
+
+.education{
+  font-weight: 600;
+}
+
+.degree{
+  display: inline-block;
+  margin: 2%;
+  vertical-align: top;
+}
+
+.university{
+  display: inline-block;
+  margin: 2%;
+  vertical-align: top;
+}
+
+.duration{
+  display: inline-block;
+  margin: 2%;
+  vertical-align: top;
+}
+
+.cgpa{
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.bottom-container a{
+  color: #F6ECF5;
 }
 
 .contact_Me_Button {
@@ -140,5 +214,23 @@ p{
 /* --------------------------------- Pseduo Class ---------------------- */
 
 a:hover{
-  color: #EAF6F6;
+  color: #060CEA;
+}
+
+#nav ul{
+  list-style-type: none;
+}
+
+#nav li{
+  display: inline-block;
+  margin: 4% 6% 0;
+  padding: 1%;
+}
+
+#nav a{
+  text-decoration: none;
+}
+
+#nav li:hover{
+  background-color: #FFFFFF;
 }
