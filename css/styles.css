@@ -224,7 +224,7 @@ a:hover{
 #nav li{
   display: inline-block;
   margin: 4% 6% 0;
-  padding: 1%;
+  padding: 1% 2%;
 }
 
 #nav a{
